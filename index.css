@@ -62,3 +62,20 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 200px;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: inline-block;
+    width: 33%;
+}
+div p{
+    color: white;
+    text-align: center;
+}
+div i{
+    background-color: steelblue;
+    padding: 20px;
+}
