@@ -66,6 +66,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: steelblue;
 }
 div{
     display: inline-block;
@@ -75,7 +76,12 @@ div p{
     color: white;
     text-align: center;
 }
+div h3{
+    text-align: center;
+}
 div i{
     background-color: steelblue;
     padding: 20px;
+    color: rgb(255, 47, 151);
+    font-size: 30px;
 }
