@@ -1,1 +1,14 @@
-ECHO is on.
+body{
+    background-color: #2C3E50;
+    color: white;
+}
+h1{
+    text-align: center;
+    background-color: #2C3E50;
+}
+h3{
+    margin: 30px;
+}
+ul{
+    margin: 20px;
+}
