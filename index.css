@@ -1,6 +1,8 @@
 body{
     background-color: #2C3E50;
     color: white;
+    margin: 0;
+    padding: 0%;
 }
 h1{
     text-align: center;
@@ -9,6 +11,54 @@ h1{
 h3{
     margin: 30px;
 }
-ul{
+.list{
     margin: 20px;
+}
+nav{
+    background-color: #2272c2;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    padding:0;
+    width: 200px;
+    text-align: center;
+    height: 100%;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 67px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+}
+nav ul li a:hover{
+    background-color: #0753a0;
+    font-size: 2rem;
+    transition: 1s;
+    color: greenyellow !important;
+
+}
+nav ul li a::after{
+    content: "";
+    width: 0px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    transition: 1s;
+}
+nav ul li a:hover::after{
+    width: 200px;
 }
